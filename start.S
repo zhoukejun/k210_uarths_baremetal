@@ -19,10 +19,15 @@ g_wake_up:
     j primary_cpu_entry
 
 secondary_cpu_entry:
-loop:
     wfi
-    j loop
+    j secondary_cpu_entry
+
 
 primary_cpu_entry:
 //   tail main
     j main
+
+loop:
+    wfi
+    j loop
+
