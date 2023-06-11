@@ -1,3 +1,3 @@
-This project is K210 uarths baremetal test.
-Testing on Sipeed Maiduino board.
+This project is Canaan Kendryte K210 uarths baremetal test.
+Testing on Sipeed Maixduino board.
  
